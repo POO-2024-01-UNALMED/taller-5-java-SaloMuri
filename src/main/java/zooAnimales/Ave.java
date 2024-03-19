@@ -15,6 +15,7 @@ public class Ave extends Animal {
 	public Ave() {
 		Ave.listado.add(this);
 	}
+	
 	public int cantidadAves() {
 		return Ave.listado.size();
 	}
@@ -50,6 +51,5 @@ public class Ave extends Animal {
 	public String getColorPlumas() {
 		return colorPlumas;
 	}
-	
 	
 }

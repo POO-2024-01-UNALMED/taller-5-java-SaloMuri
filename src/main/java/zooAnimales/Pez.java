@@ -16,6 +16,7 @@ public class Pez extends Animal{
 		this.cantidadAletas = cantidadAletas;
 		Pez.listado.add(this);
 	}
+	
 	public Pez() {
 		Pez.listado.add(this);
 	}
@@ -32,7 +33,6 @@ public class Pez extends Animal{
 	Pez salmon= new Pez(nombre, edad, "oceano", genero, "rojo", 6);
 	  salmones++;
 	  return salmon;
-	
 	}
 	
 	public static Pez crearBacalao(String nombre, int edad, String genero) {
@@ -52,6 +52,7 @@ public class Pez extends Animal{
 	public void setColorEscamas(String i) {
 		this.colorEscamas= i;
 	}
+	
 	public String getColorEscamas() {
 		return colorEscamas;
 	}
@@ -59,6 +60,7 @@ public class Pez extends Animal{
 	public void setCantidadAletas(int i) {
 		this.cantidadAletas= i;
 	}
+	
 	public int getCantidadAletas() {
 		return cantidadAletas;
 	}

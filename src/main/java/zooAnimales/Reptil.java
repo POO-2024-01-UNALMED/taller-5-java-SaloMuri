@@ -16,6 +16,7 @@ public class Reptil extends Animal {
 		this.largoCola= largoCola;
 		Reptil.listado.add(this);
 	}
+	
 	public Reptil() {
 		Reptil.listado.add(this);
 	}
@@ -23,6 +24,7 @@ public class Reptil extends Animal {
 	public int cantidadReptiles() {
 		return Reptil.listado.size();
 	}
+	
 	public String movimiento() {
 		return "reptar";
 	}
@@ -50,13 +52,17 @@ public class Reptil extends Animal {
 	public void setColorEscamas(String i) {
 		this.colorEscamas= i;
 	}
+	
 	public String getColorEscamas() {
 		return colorEscamas;
 	}
+	
 	public void setLargoCola(int z) {
 		this.largoCola = z;	
 	}
+	
 	public int getLargoCola() {
 		return largoCola;
 	}
+	
 }

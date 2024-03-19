@@ -18,6 +18,7 @@ public class Animal {
 		this.zona= null;
 		totalAnimales++;
 	}
+	
 	public Animal() {
 		totalAnimales++;
 	}
@@ -57,6 +58,7 @@ public class Animal {
    public void setEdad(int edad) {
 	   this.edad= edad;
    }
+   
    public int getEdad() {
 	   return edad;
    }
@@ -64,6 +66,7 @@ public class Animal {
    public void setHabitat(String habitat) {
 	   this.habitat= habitat;
    }
+   
    public String getHabitat() {
 	   return habitat;
    }
@@ -71,6 +74,7 @@ public class Animal {
    public void setGenero(String genero) {
 	   this.genero= genero;
    }
+   
    public String getGenero() {
 	   return genero;
    }
@@ -78,13 +82,17 @@ public class Animal {
    public static int getTotalAnimales() {
 	   return totalAnimales;
    }
+   
    public static void setTotalAnimales(int totalAnimales) {
 	   Animal.totalAnimales= totalAnimales;
    }
+   
    public Zona getZona() {
        return zona;
    }
+   
    public void setZona(Zona zona) {
        this.zona = zona;
    }
+   
 }
